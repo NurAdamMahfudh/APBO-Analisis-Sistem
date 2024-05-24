@@ -1,5 +1,4 @@
-# APBO-Analisis-Sistem
-TUGAS ANALISIS SISTEM INFORMASI DAYCARE BERBASIS OBJEK 
+#TUGAS ANALISIS SISTEM INFORMASI DAYCARE BERBASIS OBJEK 
 
 ## Aktor Yang Terlibat
 1. Admin: Mengelola data pengguna, jadwal, kehadiran, dan laporan.
@@ -13,4 +12,6 @@ TUGAS ANALISIS SISTEM INFORMASI DAYCARE BERBASIS OBJEK
 4. Pencatatan Kehadiran: Staf mencatat kehadiran anak, menandai waktu masuk dan keluar, dan alasan ketidakhadiran.
 5. Pencatatan Aktivitas Anak: Staf mencatat aktivitas anak, seperti bermain, belajar, makan, dan tidur.
 6. Laporan: Admin menghasilkan laporan kehadiran anak, aktivitas anak, dan keuangan.
-![Use Case](https://github.com/NurAdamMahfudh/APBO-Analisis-Sistem/assets/167945633/969a48e7-1c37-4e4e-b88d-56df1029418e)
+
+![Use Case](https://github.com/NurAdamMahfudh/APBO-Analisis-Sistem/assets/167945633/612ece98-5158-488e-a544-700393865356)
+
