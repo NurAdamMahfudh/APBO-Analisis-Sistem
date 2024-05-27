@@ -6,20 +6,20 @@ Daycare adalah layanan yang menyediakan perawatan dan pengawasan bagi anak-anak 
 
 ## Aktor Yang Terlibat
 
-1. Admin: Mengelola data pengguna, jadwal, kehadiran, dan laporan.
-2. Orang Tua/Wali: Mendaftarkan anak, melihat informasi anak, melakukan pembayaran, dan berkomunikasi dengan staf.
-3. Staf: Mengisi data kehadiran anak, mencatat aktivitas anak, dan berkomunikasi dengan orang tua.
+1. Admin : Mengelola data pengguna, jadwal, kehadiran, dan laporan.
+2. Orang Tua/Wali : Mendaftarkan anak, melihat informasi anak, melakukan pembayaran, dan berkomunikasi dengan staf.
+3. Staf : Mengisi data kehadiran anak, mencatat aktivitas anak, dan berkomunikasi dengan orang tua.
 
 ## Use Case
 
 ![use case](https://github.com/NurAdamMahfudh/APBO-Analisis-Sistem/assets/167945633/5d06a4db-16d0-4941-9956-300a7fa06aaf)
 
-1. Pendaftaran Anak: Orang tua/wali mendaftarkan anak, mengisi data diri anak dan orang tua, dan memilih paket layanan.
-2. Pengelolaan Data Pengguna: Admin menambahkan, mengedit, dan menghapus data anak, orang tua/wali, dan staf.
-3. Penjadwalan: Admin membuat jadwal kegiatan, mengatur waktu masuk dan keluar anak, dan menugaskan staf.
-4. Pencatatan Kehadiran: Staf mencatat kehadiran anak, menandai waktu masuk dan keluar, dan alasan ketidakhadiran.
-5. Pencatatan Aktivitas Anak: Staf mencatat aktivitas anak, seperti bermain, belajar, makan, dan tidur.
-6. Laporan: Admin menghasilkan laporan kehadiran anak, aktivitas anak, dan keuangan.
+1. Pendaftaran Anak : Orang tua/wali mendaftarkan anak, mengisi data diri anak dan orang tua, dan memilih paket layanan.
+2. Pengelolaan Data Pengguna : Admin menambahkan, mengedit, dan menghapus data anak, orang tua/wali, dan staf.
+3. Penjadwalan : Admin membuat jadwal kegiatan, mengatur waktu masuk dan keluar anak, dan menugaskan staf.
+4. Pencatatan Kehadiran : Staf mencatat kehadiran anak, menandai waktu masuk dan keluar, dan alasan ketidakhadiran.
+5. Pencatatan Aktivitas Anak : Staf mencatat aktivitas anak, seperti bermain, belajar, makan, dan tidur.
+6. Laporan : Admin menghasilkan laporan kehadiran anak, aktivitas anak, dan keuangan.
 
 ## Class Diagram 
 
@@ -27,4 +27,16 @@ Daycare adalah layanan yang menyediakan perawatan dan pengawasan bagi anak-anak 
 
 ## ERD (Entity Relationship Diagram)
 
+![ERD](https://github.com/NurAdamMahfudh/APBO-Analisis-Sistem/assets/167945633/10f9e0c3-2051-4168-bace-7bdb64e5937e)
 
+### Relasi :
+
+1. Anak (1) --> OrangTua (1):
+   * Satu anak memiliki satu orang tua.
+   * Satu orang tua dapat memiliki banyak anak.
+2. Jadwal (1) --> Staf (1):
+   * Satu jadwal ditugaskan kepada satu staf.
+   * Satu staf dapat menangani banyak jadwal.
+3. Anak () --> Kehadiran ():
+   * Satu anak dapat memiliki banyak catatan kehadiran dalam berbagai jadwal.
+   * Satu jadwal dapat memiliki catatan kehadiran untuk banyak anak.
